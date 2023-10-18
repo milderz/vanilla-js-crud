@@ -8,9 +8,23 @@
     <title>Vite App</title>
   </head>
   <body>
-    <div id="app">
-      <h2 class="text-4xl">Hello tailwind</h2>
-    </div>
+    <header class="flex justify-start items-center gap-4 h-12 bg-sky-100">
+      <div>
+        <button class="bg-sky-500">Refresh</button>
+        <button class="bg-sky-500">ADD</button>
+        <button class="bg-sky-500">EDIT</button>
+        <button class="bg-sky-500">DELETE</button>
+      </div>
+      <form>
+        <label>
+          <input type="text" placeholder="search by name">
+        </label>
+        <select name="select">
+          <option value="value1">Department 1</option>
+          <option value="value1">Department 2</option>
+          <option value="value1">Department 3</option>
+        </select>
+      </form>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
